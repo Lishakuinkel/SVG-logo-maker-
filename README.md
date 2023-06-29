@@ -11,6 +11,7 @@ Generate a simple SVG logo with your choice of text (limit of 3 characters), sha
 Powered by Node.js v16, utilizes Inquirer node package manager v8.2.4, File system module and Jest v29.5.0 for testing. 
 
 ## App walkthrough video 
+[Untitled_ Jun 28, 2023 10_19 PM.webm](https://github.com/Lishakuinkel/SVG-logo-maker-/assets/130411719/b7ed0648-098b-4f5d-a7f2-5ee55659e342)
 
 
 
