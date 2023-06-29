@@ -10,6 +10,10 @@ Generate a simple SVG logo with your choice of text (limit of 3 characters), sha
 
 Powered by Node.js v16, utilizes Inquirer node package manager v8.2.4, File system module and Jest v29.5.0 for testing. 
 
+## App walkthrough video 
+
+
+
 
 ### User Story
 
