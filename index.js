@@ -2,7 +2,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const setShape = require('./lib/setshape.js');
-const outputFile = require('./examples/outputfile.svg');
 
 // Array of questions for user input regarding text, color and shape for the logo
 const questions = [
@@ -32,7 +31,7 @@ const questions = [
 // Take the user inputs as parameter and call createLogo function
 function createLogo(answers){
     const logo = setShape(answers);
-    fs.writeFile(outputFile, logo, ()=> console.log("Generated logo.svg"));
+    fs.writeFile("examples/logo.svg", logo, ()=> console.log("Generated logo.svg"));
     
 }
 
