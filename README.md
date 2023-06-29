@@ -57,4 +57,14 @@ Once all prompts have been answered with acceptable values, your new logo will b
 You can then open this 'logo.svg' file onto your browser and see your desired logo. 
 
 
+## Resources Used 
 
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts
+
+https://www.w3schools.com/nodejs/
+
+https://www.testim.io/blog/jest-testing-a-helpful-introductory-tutorial/

@@ -18,7 +18,7 @@ const questions = [
         } 
     },
     {   // Text color input accepts either color keyword or hexadecimal code
-        type: 'input',
+        type: 'list',
         name: 'text_color_choice',
         message: 'Enter the color for your text. Choose the color format',
         choices: ['color keyword', 'hexadecimal']
@@ -68,7 +68,7 @@ const questions = [
         choices: ['Circle', 'Triangle', 'Square']
     },
     {   // Shape color input accepts either shape keyword or hexadecimal code
-        type: 'input',
+        type: 'list',
         name: 'shape_color_choice',
         message: 'Enter your color keyword for the logo',
         choices: ['color keyword', 'hexadecimal']
@@ -85,8 +85,8 @@ const questions = [
         },
         validate: (answer) => {
             let answerLowercase = answer.toLowerCase();
-            for (var i = 0, len = colorKeywords.length; i < len; ++i) {
-                if (answerLowercase.indexOf(colorKeywords[i]) != -1) {
+            for (var i = 0, len = color_inputKeyword.length; i < len; ++i) {
+                if (answerLowercase.indexOf(color_inputKeyword[i]) != -1) {
                 return true;
             }}
             return console.log("\n Please enter a valid color keyword")
