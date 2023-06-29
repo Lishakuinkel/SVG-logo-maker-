@@ -23,7 +23,7 @@ const questions = [
         message: 'Enter the color for your text. Choose the color format',
         choices: ['color keyword', 'hexadecimal']
     },
-    {
+    {   // Returns true if user selects color keyword
         type: 'input',
         name: 'text_color',
         message: 'Enter the color keyword',
@@ -42,7 +42,7 @@ const questions = [
             } return console.log("\n Please enter a valid color keyword");
         }
     },
-    {
+    {   // Returns true if user selects hexadecimal 
         type: "input",
         name: "text_color",
         message: "Enter the text hexadecimal number (#CCCCCC)",
@@ -73,7 +73,7 @@ const questions = [
         message: 'Enter your color keyword for the logo',
         choices: ['color keyword', 'hexadecimal']
     },
-    {
+    {   // If user selects color keyword
         type: "input",
         name: "shape_color",
         message: "Enter the shape color keyword",
@@ -92,8 +92,8 @@ const questions = [
             return console.log("\n Please enter a valid color keyword")
         }
     },
-    // hexadecimal (validate hexadecimal with RegEx pattern)
-    {
+    
+    { // hexadecimal (validate hexadecimal with RegEx pattern)
         type: "input",
         name: "shape_color",
         message: "Enter the shape hexadecimal number (#CCCCCC)",
@@ -113,7 +113,7 @@ const questions = [
     }
 ]
 
-// Take the user inputs as parameter and call createLogo function
+// Take the user inputs as parameter and call createLogo function to generate the desired logo
 function createLogo(answers){
     const logo = setShape(answers);
     fs.writeFile("examples/logo.svg", logo, ()=> console.log("Generated logo.svg"));
