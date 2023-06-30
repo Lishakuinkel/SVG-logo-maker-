@@ -13,8 +13,8 @@ Powered by Node.js v16, utilizes Inquirer node package manager v8.2.4, File syst
 ## App walkthrough video 
 [Untitled_ Jun 28, 2023 10_19 PM.webm](https://github.com/Lishakuinkel/SVG-logo-maker-/assets/130411719/b7ed0648-098b-4f5d-a7f2-5ee55659e342)
 
+Here is the link to the video : https://drive.google.com/file/d/16wjSV46mNpbcTy_-TB1vgiytCwhXCINN/view
 
-You can click here for the link to the video : https://drive.google.com/file/d/1LGfEkodYND3ewKsB0gHKuHvSBT0scOb2/view
 
 ### User Story
 
